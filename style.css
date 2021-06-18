@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: "Cantata One";
+}
+
+.container {
+  display: flex;
+  place-content: space-around;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.leftNav img {
+  padding-top: 0.5em;
+  padding-left: 10em;
+  height: 5em;
+  width: 50%;
+  margin-left: -5em;
+}
+
+.rightNav {
+  align-self: flex-end;
+  width: 50%;
+  padding-bottom: 2.5em;
+  margin-right: 15em;
+  margin-top: 20px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  text-align: right;
+  padding: 1em;
+  font-size: 20;
+}
+
+.rightNav a {
+  color: black;
+  text-decoration: none;
+}
+
+.home-cta a {
+  border: 3px solid black;
+  background-color: black;
+  color: white;
+  border-radius: 5em;
+  padding: 3px 25px;
+}
+
+.hero {
+  display: flex;
+  width: 100%;
+}
+
+.hire {
+  width: 850px;
+  height: 612px;
+  align-self: flex-start;
+  margin-left: -5em;
+}
+
+.hero-right {
+  padding: 0;
+  margin-top: -3em;
+}
+
+.hero-right img {
+  width: 160px;
+  height: 110px;
+  margin-top: 5em;
+  margin-bottom: -5em;
+  margin-left: 15em;
+}
+
+.hero-right h2 {
+  font-size: 70px;
+  font-weight: 400;
+  margin-right: 2em;
+  width: 200px;
+  margin-left: 3.14em;
+}
+
+.hero-right h1 {
+  font-size: 100px;
+  font-weight: 200;
+  margin-left: 1.5em;
+  margin-top: -1em;
+}
+
+.hero-right p {
+  font-size: 25px;
+  border: 3px solid black;
+  text-align: center;
+  width: 10em;
+  padding: 0.5em 0em;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  margin-left: 8em;
+}
+
+.hero-bottom {
+  align-self: flex-end;
+}
