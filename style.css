@@ -51,6 +51,7 @@ li {
 .hero {
   display: flex;
   width: 100%;
+  flex-direction: row;
 }
 
 .hire {
@@ -61,8 +62,9 @@ li {
 }
 
 .hero-right {
-  padding: 0;
+  padding: -20em;
   margin-top: -3em;
+  align-items: baseline;
 }
 
 .hero-right img {
@@ -93,7 +95,7 @@ li {
   border: 3px solid black;
   text-align: center;
   width: 10em;
-  padding: 0.5em 0em;
+  padding: 0em;
   border-radius: 5px;
   background-color: black;
   color: white;
@@ -101,5 +103,15 @@ li {
 }
 
 .hero-bottom {
+  width: 50px;
   align-self: flex-end;
+  height: 100px;
+  margin: 5em;
+}
+
+.hero-bottom img {
+  width: 30px;
+  height: 30px;
+  padding: 0.5em;
+  margin: 0;
 }
