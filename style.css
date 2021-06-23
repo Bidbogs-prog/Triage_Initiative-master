@@ -138,15 +138,15 @@ a {
 .rightInformation h1 {
   font-size: 4em;
   font-weight: 400;
-  margin-top: 200px;
-  margin-right: 200px;
+  margin-top: 250px;
+  margin-right: 150px;
 }
 
 .rightInformation p {
-  font-size: 28px;
-  width: 19em;
-  font-weight: bold;
-  letter-spacing: 0.1px;
+  font-size: 25px;
+  width: 80%;
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
 .rightInformation a {
@@ -157,7 +157,7 @@ a {
   padding: 5px 65px;
   box-sizing: border-box;
   font-size: 20px;
-  margin-right: 210px;
+  margin-right: 150px;
 }
 
 .contact {
@@ -207,6 +207,7 @@ a {
   margin-bottom: 20px;
   background-color: #c4c4c4;
   border-radius: 5px;
+  resize: none;
 }
 
 .rightContact input {
